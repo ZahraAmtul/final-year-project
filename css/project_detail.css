@@ -7,9 +7,9 @@
     margin-right: 25%;
     background-color: rgb(117, 255, 255);
     color: #fff;
-    border-radius: 25px;
-    box-shadow: 3px 3px 3px #b1b1b1,
-        -3px -3px 3px #fff;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff; */
     letter-spacing: 1.3px;
 }
 
@@ -26,10 +26,10 @@
     margin-left: 25%;
     margin-right: 25%;
     border: rgb(117, 255, 255) 1px solid;
-    border-radius: 25px;
+    border-radius: 5px;
     letter-spacing: 1.3px;
-    box-shadow: 3px 3px 3px #b1b1b1,
-        -3px -3px 3px #fff;
+    /* box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff; */
 }
 
 .btn1:hover {
