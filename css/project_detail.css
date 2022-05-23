@@ -1,0 +1,45 @@
+
+.btn {
+    box-shadow: none;
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(117, 255, 255);
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover {
+    background-color: rgb(188, 247, 247);
+    color: rgb(1, 1, 94);
+}
+.btn1 {
+    box-shadow: none;
+    width: 50%;
+    height: 40px;
+    color: aqua;
+    background-color: #fff;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: rgb(117, 255, 255) 1px solid;
+    border-radius: 25px;
+    letter-spacing: 1.3px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+}
+
+.btn1:hover {
+    background-color: rgb(188, 247, 247);
+    color: rgb(1, 1, 94);
+}
+.checked {
+color: orange;
+
+}
+#basic-addon3{
+width: 60%;
+}
