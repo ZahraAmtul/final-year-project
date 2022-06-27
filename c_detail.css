@@ -1,0 +1,277 @@
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+    margin: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #ecf0f3;
+}
+section{
+    background-color: #15001d;
+    color: aliceblue;
+}
+.btn{
+    border: none;
+    font-weight: 800;
+    font-size: small;
+    background-color: #550077;
+    color: white;
+}
+.btn:hover{
+    background-color: #9d2fc9;
+    color: #fff;
+}
+.btn1{
+    
+    font-weight: 800;
+    font-size: small;
+    background-color: #15001d;
+    color: #ffffff;
+}
+section p{
+    font-size: x-small;
+    font-weight: 600;
+}
+h6{
+    letter-spacing: 3px;
+    color: #550077;
+}
+p{
+    font-weight: 500;
+}
+.card {
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #fffbec;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #fed85d;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: #550077
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
+.this{
+    background-color: #550077;
+    box-shadow: none;
+    color: #fff;
+}
+.intro{
+    box-shadow: none;
+    
+}
+.logo {
+    width: 80px;
+    margin: auto;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+  }
+  .card h5{
+      text-align: center;
+      margin-top: 10px;
+  }
+  .card h6{
+      text-align: center;
+  }
+  .intro p{
+      text-align: center;
+  }
+  a{
+      text-decoration: none;
+  }
+
+  .dots{
+
+    height: 4px;
+  width: 4px;
+  margin-bottom: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.badge{
+
+        padding: 7px;
+        padding-right: 9px;
+    padding-left: 16px;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+}
+
+.user-img{
+
+    margin-top: 4px;
+}
+
+.check-icon{
+
+    font-size: 17px;
+    color: #c3bfbf;
+    top: 1px;
+    position: relative;
+    margin-left: 3px;
+}
+
+.form-check-input{
+    margin-top: 6px;
+    margin-left: -24px !important;
+    cursor: pointer;
+}
+
+
+.form-check-input:focus{
+    box-shadow: none;
+}
+
+
+.icons i{
+
+    margin-left: 8px;
+}
+.reply{
+
+    margin-left: 12px;
+}
+
+.reply small{
+
+    color: #b7b4b4;
+
+}
+.reply small:hover{
+
+    color: green;
+    cursor: pointer;
+
+}
+.wrapper {
+    max-width: 300px;
+    min-height: 300px;
+    margin: 20px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  }
+  
+  .logo {
+    width: 80px;
+    margin: auto;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+  }
+  
+  .wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+  }
+  
+  .wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+  }
+  
+  .wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #550077;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+  }
+  
+  .wrapper .btn:hover {
+    background-color: #9d36c5;
+  }
+  
+  .wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #550077;
+  }
+  
+  .wrapper a:hover {
+    color: #9d36c5;
+  }
+  #head{
+    color: #550077;
+    text-align: center;
+    margin: 50px;
+  }
+  
