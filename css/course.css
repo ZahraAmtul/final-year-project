@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #ecf0f3;
+}
+
+.wrapper {
+  max-width: 300px;
+  min-height: 300px;
+  margin: 20px auto;
+  padding: 40px 30px 30px 30px;
+  background-color: #ecf0f3;
+  border-radius: 15px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.logo {
+  width: 80px;
+  margin: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px #5f5f5f,
+      0px 0px 0px 5px #ecf0f3,
+      8px 8px 15px #a7aaa7,
+      -8px -8px 15px #fff;
+}
+
+.wrapper .name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 1.3px;
+  padding-left: 10px;
+  color: #555;
+}
+
+.wrapper .form-field input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #666;
+  padding: 10px 15px 10px 10px;
+  /* border: 1px solid red; */
+}
+
+.wrapper .btn {
+  box-shadow: none;
+  width: 100%;
+  height: 40px;
+  background-color: #550077;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px #b1b1b1,
+      -3px -3px 3px #fff;
+  letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+  background-color: #9d36c5;
+}
+
+.wrapper a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #550077;
+}
+
+.wrapper a:hover {
+  color: #9d36c5;
+}
+#head{
+  color: #550077;
+  text-align: center;
+  margin-top: 60px;
+}
+.learn{
+  background-color: #550077;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  height: 150px;
+
+}
+.learn i{
+  font-size: 30px;
+  color: #fff;
+}
+.learn span{
+  color: white;
+}
+h2{
+  color: #550077;
+}
+.center {
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.btn {
+  box-shadow: none;
+  width: 50%;
+  height: 40px;
+  background-color: #550077;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px #b1b1b1,
+      -3px -3px 3px #fff;
+  letter-spacing: 1.3px;
+}
+.btn:hover {
+  background-color: #9d36c5;
+  color: black;
+  font-weight: 600;
+}
+@media (max-width:800px) {
+  .wrapper .name {
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+  }
+  
+}
